@@ -221,7 +221,8 @@ route:
 ### 7. Conclusion 
 We have successfully enabled monitoring for user-defined projects, deployed a sample service, created an alerting rule and integrated Slack as an alert receiver. Although we have focused on configuring slack on Openshift Alertmanager, the steps to configure other supported receiver types within Openshift container platorm remains same. 
 
-This is only an example of how alerting rules can be used in Openshift. When developing applications and services, we can include the prometheus library which is available in most popular languages to expose application level metrics. We can also create alerting rules for platform metrics such as how much CPU, memory and bandwidth is being consumed within a namespace. [Read more about Openshift monitoring](https://docs.openshift.com/container-platform/4.10/monitoring/monitoring-overview.html)
+This is only an example of how alerting rules can be used in Openshift. When developing applications and services, we can include the prometheus library which is available in most popular languages to expose application level metrics. We can also create alerting rules for platform metrics such as how much CPU, memory and bandwidth is being consumed within a namespace. 
+[Read more about Openshift monitoring](https://docs.openshift.com/container-platform/4.10/monitoring/monitoring-overview.html)
 
 
 
